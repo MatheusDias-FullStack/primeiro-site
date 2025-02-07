@@ -7,16 +7,16 @@
     
 }
 header{
-    padding: 24px;
+    padding: 12px;
     background-color: #3764b8;
-    height: 50px;
+    height: 100px;
     
     
     
 }
 nav.menu li{
     list-style-type: none;
-    margin: 12px 0;
+    margin: 10px 0;
 }
 nav.menu li > a{
     text-decoration: none;
