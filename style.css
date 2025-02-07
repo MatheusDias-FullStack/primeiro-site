@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto Condensed", serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    padding: 24px;
+    background-color: #3764b8;
+    
+    
+    
+}
+nav.menu li{
+    list-style-type: none;
+    margin: 12px 0;
+}
+nav.menu li > a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2{
+    font-size: 48px;
+    margin: 8px 0 24px 0;
+}
+section{
+    text-align: center;
+    padding: 48px 24px;
+    border-bottom: 1px solid #cccccc;
+}
+button.botao{
+    background-color: #3764b8;
+    margin: 24px 0;
+    border-radius: 48px;
+    border-color: #3764b8;
+    padding: 16px 40px;
+    font-size: 16px;
+    color: aliceblue;
+}
+section#pagina-informacoes > div{
+    text-align: left;
+}
+div#container-tabela{
+    overflow-x: scroll;
+    width: 100%;
+}
+table{
+    min-width: 450px;
+}
+table, td, th{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 12px;
+    margin: 0 auto;
+}
+td.diferente{
+    text-align: left;
+}
+button.tabela-planos{
+    background-color: #3764b8;
+    border-radius: 48px;
+    border-color: #3764b8;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: aliceblue;
+}
+a#watts{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+a#watts > img{
+    width: 60px;
+}
+footer{
+    text-align: center;
+    color: #ccc;
+}
+@media screen and (min-width: 768px){
+    nav.menu > ul{
+        display: flex;
+        gap: 48px;
+    }
+    div#container-tabela{
+        width: 100%;
+        overflow: hidden;
+    }
+    table{
+        width: 70%;
+    }
+    
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991){
+    section img{
+        width: 70%;
+    
+    }
+    section#pagina-informacoes > div{
+        padding: 0 24px;
+    }
+
+}
+@media screen and (min-width: 992px){
+    nav.menu li > a{
+        color: #cccccc;
+    }
+    nav.menu li > a:hover{
+        font-size: 35px;  
+    }
+    section#pagina-inicial img{
+        width: 400px;
+        
+    }
+    section#pagina-inicial{
+        flex-direction: row-reverse;
+    }
+    section#pagina-inicial div{
+        padding-top: 75px;
+    }
+    
+    section{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 48px;
+        
+    
+    }
+    section#pagina-informacoes img{
+        width: 400px;
+    }
+    section#pagina-informacoes div{
+        width: 30%;
+    }
+    section#planos{
+        flex-direction: column;
+    }
+    button.botao:hover{
+        cursor: pointer;
+        padding: 25px 55px;
+        font-size: 24px;
+    }
+    button.tabela-planos:hover{
+        cursor: pointer;
+        padding: 10px 30px;
+        font-size: 25px;
+    }
+}
